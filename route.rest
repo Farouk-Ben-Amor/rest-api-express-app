@@ -1,0 +1,21 @@
+GET http://localhost:3000/subscribers
+
+###
+
+
+GET http://localhost:3000/subscribers/
+655635b951f855f8730abfd0
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json 
+
+{
+    "name" : "Farouk1", 
+    "subscribedToChannel" : "Web dev simplified"
+}
+
+###
+
+DELETE http://localhost:3000/subscribers/655635b951f855f8730abfd0
